@@ -1,0 +1,33 @@
+{
+  "name": "todo_challenge",
+  "version": "0.0.1",
+  "description": "Makers Academy Weekend Challenge. Create a TODO List",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeathRay1977/todo_challenge.git"
+  },
+  "keywords": [
+    "Makers"
+  ],
+  "author": "Norm Fasey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeathRay1977/todo_challenge/issues"
+  },
+  "homepage": "https://github.com/DeathRay1977/todo_challenge#readme",
+  "dependencies": {
+    "bower": "^1.6.8"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "phantomjs": "^1.9.19"
+  }
+}
