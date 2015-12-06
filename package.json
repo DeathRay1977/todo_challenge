@@ -24,7 +24,7 @@
   "homepage": "https://github.com/DeathRay1977/todo_challenge#readme",
   "dependencies": {
     "body-parser": "^1.14.1",
-    "bower": "^1.6.8",
+    "bower": "^1.6.9",
     "cookie-parser": "^1.4.0",
     "express": "~4.13.1",
     "jade": "^1.11.0",
