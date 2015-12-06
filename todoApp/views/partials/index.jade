@@ -1,0 +1,21 @@
+form(ng-submit='IndexCtrl.addTodo()')
+  div(class='form-group')
+    input(class='form-control', ng-model='IndexCtrl.todoText', name='todoText', value='What needs to be done?')
+p
+
+div(class='table-responsive')
+  table(class="items table")
+    tr
+      th Done
+      th Task
+      th Del
+    tr(ng-repeat="item in IndexCtrl.todoList.items")
+      td(class='completed-col')
+        input(type='checkbox', ng-model='item.complete')
+      td(class='text-col')
+        span(editable-text='item.text', class='text todo-done-{{item.complete}}')
+          {{item.text}}
+      td(class='del-col')
+        span(class='del-icon', ng-click='IndexCtrl.deleteTodo(item.text)')
+         strong x
+ng-pluralize(count='IndexCtrl.todoList.items.length', when="{'one': '1 Item', 'other': '{{IndexCtrl.todoList.items.length}} Items'}")

@@ -1,0 +1,17 @@
+doctype html
+html(ng-app="todoApp")
+  head
+    meta(charset='utf8')
+    title Todo-ify
+    link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body(ng-controller='IndexCtrl as IndexCtrl')
+    div(class='container jumbotron')
+      div
+        ng-view
+
+    script(src='bower_components/angular/angular.js')
+    script(src='bower_components/angular-route/angular-route.js')
+    script(src='bower_components/angular-xeditable/dist/js/xeditable.js')
+    script(src='javascripts/todo.js')
+    script(src='javascripts/controllers.js')
