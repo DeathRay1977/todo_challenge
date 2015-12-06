@@ -20,4 +20,10 @@ describe('TODO List', function() {
     first.element(by.className('del-icon')).click();
     expect(list.getText()).not.toContain(text + ' x');
   });
+  it('can edit a todo item', function() {
+    first.element(by.className('text')).click();
+    var editBox = element(by.className('editable-input'));
+    editBox.sendKeys('Buy Bread').sendKeys(protractor.Key.ENTER);
+    expect(list.getText()).not.toContain(text + ' x');
+  });
 });

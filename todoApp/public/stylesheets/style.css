@@ -19,3 +19,8 @@ a {
 .del-icon:hover, .text:hover {
   cursor: pointer;
 }
+
+.headline {
+  text-align: center;
+  font-size: 42px;
+}
