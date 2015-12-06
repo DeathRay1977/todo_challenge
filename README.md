@@ -1,5 +1,35 @@
 # Todo Challenge
 
+This is my submission for the Todo challenge. It implements all of the User stories, namely:
+
+* Tasks are stored but they do not persist. No database added. The tasks are stored in an array of Javascript objects inside the controller.
+* New tasks can be added by typing into the text box and hitting return.
+* Tasks can be edited by clicking on the task text.
+* Tasks can be deleted by clicking on the red x next to the entry.
+* Tasks can be marked as complete and the text will be struck out.
+* Tasks can be filtered by complete, incomplete or all.
+* Tasks cab be cleared by clicking the clear button.
+* A count of all tasks is displayed.
+* The app was styled with twitter bootstrap.
+
+A screen dumps are shown below.
+
+![Screen](https://i.imgur.com/vqSSnvY.png)
+
+![Screen2](https://i.imgur.com/Jpk6V1f.png)
+
+To run the application, carry out the following steps:
+
+* Install Node.js
+* Clone this repo.
+* Perform a npm install
+* Perform a bower install
+* Start the Express web server using 'npm start'
+* Goto localhost:3000
+
+
+
+
 * Deadline: submit completed pull request by 9am on Monday
 * You may use whatever level of JavaScript you feel comfortable with - pure JS, jQuery, Angular, or whatever weird and wonderful framework you want to try. Extra points for DogeScript
 
