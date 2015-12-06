@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/DeathRay1977/todo_challenge#readme",
   "dependencies": {
+    "express": "~4.13.1",
     "bower": "^1.6.8"
   },
   "devDependencies": {
