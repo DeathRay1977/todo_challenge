@@ -1,5 +1,7 @@
 # Todo Challenge
 
+A demo of this app can be found at https://todo-ify.herokuapp.com/#/
+
 This is my submission for the Todo challenge. It implements all of the User stories, namely:
 
 * Tasks are stored but they do not persist. No database added. The tasks are stored in an array of Javascript objects inside the controller.
