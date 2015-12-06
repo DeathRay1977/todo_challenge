@@ -10,7 +10,7 @@ This is my submission for the Todo challenge. It implements all of the User stor
 * Tasks can be deleted by clicking on the red x next to the entry.
 * Tasks can be marked as complete and the text will be struck out.
 * Tasks can be filtered by complete, incomplete or all.
-* Tasks cab be cleared by clicking the clear button.
+* Completed Tasks can be cleared by clicking the clear button.
 * A count of all tasks is displayed.
 * The app was styled with twitter bootstrap.
 
