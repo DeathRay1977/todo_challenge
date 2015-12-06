@@ -4,7 +4,10 @@
   "description": "Makers Academy Weekend Challenge. Create a TODO List",
   "main": "app.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "./todoApp/bin/www",
+=======
+>>>>>>> 94b7c27c3065188974a307ba6c1ed5f6d8b01fa8
     "postinstall": "./node_modules/bower/bin/bower install"
   },
   "repository": {

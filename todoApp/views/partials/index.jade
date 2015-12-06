@@ -26,6 +26,6 @@ div(class='btn-group', group='group')
   button(class='btn btn-primary', type='button', ng-click='todoFilter = {complete: true}')
     strong Complete
   button(class='btn btn-primary', type='button', ng-click='IndexCtrl.clearTodoList()')
-    strong Clear
+    strong Clear Completed
 p
 ng-pluralize(count='IndexCtrl.todoList.items.length', when="{'one': '1 Item', 'other': '{{IndexCtrl.todoList.items.length}} Items'}")

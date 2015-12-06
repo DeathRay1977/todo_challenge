@@ -4,14 +4,20 @@ todoControllers.controller('IndexCtrl', ['$scope', function($scope){
 
   var self = this;
 
+  self.todoList = {
+    items: [
+    ]
+  };
   self.clearTodoList = function() {
-    self.todoList = {
-      items: [
-      ]
-    };
+    var newItemList = [];
+    for (var i = 0; i < self.todoList.items.length; i++) {
+      if (!self.todoList.items[i].complete) {
+        newItemList.push(self.todoList.items[i]);
+      }
+    }
+    self.todoList.items = newItemList;
   };
 
-  self.clearTodoList();
 
   self.editTodo = function (itemText) {
     console.log('Edit!');
