@@ -23,8 +23,12 @@
   },
   "homepage": "https://github.com/DeathRay1977/todo_challenge#readme",
   "dependencies": {
+    "body-parser": "^1.14.1",
+    "bower": "^1.6.8",
+    "cookie-parser": "^1.4.0",
     "express": "~4.13.1",
-    "bower": "^1.6.8"
+    "morgan": "^1.6.1",
+    "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
     "cucumber": "^0.9.2",
